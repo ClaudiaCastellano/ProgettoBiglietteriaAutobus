@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #9fd5e6;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+header, main, footer {
+    display: block;
+    min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+    max-width: 855px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+header {
+    padding: 25px 0 25px 0;
+    background: white;
+    overflow: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: darkmagenta;
+}
+
+main {
+    background: white;
+    overflow: auto;
+    padding: 25px 0 25px 0;
+}
+
+main .container .form{
+    width: 570x;
+    float: left;
+    background: rgb(212, 219, 221);
+    padding: 70px 85px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.checkbox{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 300px;
+}
+
+main .container .image{
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 80px;
+    /*width: 285;*/
+    float: right;
+}
+
+main .container .form .numBiglietti{
+
+    padding: 30px 0px;
+
+}
+
+main .container .form .numBagagli{
+
+    padding: 15px 0px;
+    
+}
+
+main .container button{
+
+    margin-left: 300px;
+    font-style: italic;
+    padding: 0 3px 0 3px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    font-size: 1.2em;
+
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 40px 0 20px 0;
+}
+
+footer .contact {
+  float: left;
+  width: 570px;    
+}
+
+footer .sitemap {
+    float: right;
+    width: 285px;
+}
