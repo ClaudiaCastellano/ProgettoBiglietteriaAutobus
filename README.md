@@ -10,6 +10,6 @@ Il sistema di biglietteria consente agli impiegati di emettere biglietti verific
 
 Il codice è organizzato secondo il modello Boundary-Control-Entity-Database (BCED):
 - [boundary](./app/src/boundary) contiene gli oggetti responsabili dell'interfaccia utente e della logica di presentazione
-- [control](./app/src/control) contiene la logica di controllo dell'applicazione, che coordina le operazioni tra boundary ed entità
+- [control](./app/src/control) contiene la logica di controllo dell'applicazione, che coordina le operazioni tra boundary ed entity
 - [entity](./app/src/entity) contiene oggetti che rappresentano la semantica delle entità del dominio applicativo
-- [database](./app/src/database)contiene le classi responsabili dell'estrazione dei dati dal database e che implementano le operazioni CRUD
+- [database](./app/src/database) contiene le classi responsabili dell'estrazione dei dati dal database e che implementano le operazioni CRUD
